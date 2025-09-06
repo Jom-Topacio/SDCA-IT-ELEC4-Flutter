@@ -9,7 +9,13 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
 
     Scaffold homepage = Scaffold(
-      appBar: AppBar(title: Text('sheesh damn'))
+      appBar: AppBar(title: Text('NANDITO AKO UMIIBIG SAYO')),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // TODO :Implement Button
+        },
+        child: const Icon(Icons.add)
+      ),
     );
 
     return MaterialApp(
